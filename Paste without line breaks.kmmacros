@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>654584738.37184703</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>%Space%</string>
+						<key>Search</key>
+						<string>\R+</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>%Space%</string>
+						<key>Search</key>
+						<string>%Space%+</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>655461678.07799304</real>
+				<key>ModificationDate</key>
+				<real>655461951.00497305</real>
+				<key>Name</key>
+				<string>Paste without line breaks</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>75F06683-8424-4C05-9DEA-BD47F79E0C00</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboards</string>
+		<key>ToggleMacroUID</key>
+		<string>F683CFB2-432A-486E-8C7A-396E3C43EC24</string>
+		<key>UID</key>
+		<string>6485ACBE-2933-4724-B091-B0288FF7A2A3</string>
+	</dict>
+</array>
+</plist>
